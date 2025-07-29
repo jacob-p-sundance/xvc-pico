@@ -145,19 +145,21 @@ int main() {
 
   multicore_launch_core1(core1_entry);  
   while (1) {
-    // LED blink logic
+    // LED blinks while running this central loop
     uint32_t now = to_ms_since_boot(get_absolute_time());
     if (now - last_blink >= LED_BLINK_DELAY) {
       led_on = !led_on;
       gpio_put(LED_PIN, led_on);
       last_blink = now;
     }
-    // Print core clock every few seconds
+    // Print core clock every few seconds to serial.
+    /*
     if (now - last_clock_print >= CLOCK_PRINT_INTERVAL) {
       uint32_t freq = clock_get_hz(clk_sys);
       printf("Core clock: %lu Hz\r\n", freq);
       last_clock_print = now;
     }
+    */
     from_host_task();
     fetch_command();
     pmod_task();
