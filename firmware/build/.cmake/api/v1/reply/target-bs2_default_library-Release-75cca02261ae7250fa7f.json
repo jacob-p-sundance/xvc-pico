@@ -97,19 +97,19 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S.rule",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

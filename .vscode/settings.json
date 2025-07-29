@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/jake/repos/xvc-pico/firmware"
+    "cmake.sourceDirectory": "/home/jake/repos/xvc-pico/firmware",
+    "cmake.buildDirectory": "/home/jake/repos/xvc-pico/firmware/build",
 }

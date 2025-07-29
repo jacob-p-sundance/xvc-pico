@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jake/repos/xvc-pico/build"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -654,6 +654,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -683,7 +687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jake/repos/xvc-pico/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1339,7 +1343,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/jake/repos/xvc-pico/build/_deps"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1615,7 +1619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jake/repos/pico-sdk/src/common/boot_picobin_headers;/home/jake/repos/pico-sdk/src/common/boot_picoboot_headers;/home/jake/repos/pico-sdk/src/common/boot_uf2_headers;/home/jake/repos/pico-sdk/src/common/pico_base_headers;/home/jake/repos/pico-sdk/src/common/pico_usb_reset_interface_headers;/home/jake/repos/pico-sdk/src/common/pico_bit_ops_headers;/home/jake/repos/pico-sdk/src/common/pico_binary_info;/home/jake/repos/pico-sdk/src/common/pico_divider_headers;/home/jake/repos/pico-sdk/src/common/pico_sync;/home/jake/repos/pico-sdk/src/common/pico_time;/home/jake/repos/pico-sdk/src/common/pico_util;/home/jake/repos/pico-sdk/src/common/pico_stdlib_headers;/home/jake/repos/pico-sdk/src/common/hardware_claim;/home/jake/repos/pico-sdk/src/rp2040/pico_platform;/home/jake/repos/pico-sdk/src/rp2040/hardware_regs;/home/jake/repos/pico-sdk/src/rp2040/hardware_structs;/home/jake/repos/pico-sdk/src/rp2040/boot_stage2;/home/jake/repos/pico-sdk/src/rp2_common/hardware_base;/home/jake/repos/pico-sdk/src/rp2_common/hardware_adc;/home/jake/repos/pico-sdk/src/rp2_common/hardware_boot_lock;/home/jake/repos/pico-sdk/src/rp2_common/hardware_clocks;/home/jake/repos/pico-sdk/src/rp2_common/hardware_divider;/home/jake/repos/pico-sdk/src/rp2_common/hardware_dma;/home/jake/repos/pico-sdk/src/rp2_common/hardware_exception;/home/jake/repos/pico-sdk/src/rp2_common/hardware_flash;/home/jake/repos/pico-sdk/src/rp2_common/hardware_gpio;/home/jake/repos/pico-sdk/src/rp2_common/hardware_i2c;/home/jake/repos/pico-sdk/src/rp2_common/hardware_interp;/home/jake/repos/pico-sdk/src/rp2_common/hardware_irq;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pio;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pll;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pwm;/home/jake/repos/pico-sdk/src/rp2_common/hardware_resets;/home/jake/repos/pico-sdk/src/rp2_common/hardware_rtc;/home/jake/repos/pico-sdk/src/rp2_common/hardware_spi;/home/jake/repos/pico-sdk/src/rp2_common/hardware_sync;/home/jake/repos/pico-sdk/src/rp2_common/hardware_sync_spin_lock;/home/jake/repos/pico-sdk/src/rp2_common/hardware_ticks;/home/jake/repos/pico-sdk/src/rp2_common/hardware_timer;/home/jake/repos/pico-sdk/src/rp2_common/hardware_uart;/home/jake/repos/pico-sdk/src/rp2_common/hardware_vreg;/home/jake/repos/pico-sdk/src/rp2_common/hardware_watchdog;/home/jake/repos/pico-sdk/src/rp2_common/hardware_xip_cache;/home/jake/repos/pico-sdk/src/rp2_common/hardware_xosc;/home/jake/repos/pico-sdk/src/rp2_common/boot_bootrom_headers;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_compiler;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_sections;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_panic;/home/jake/repos/pico-sdk/src/rp2_common/pico_aon_timer;/home/jake/repos/pico-sdk/src/rp2_common/pico_bootrom;/home/jake/repos/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset;/home/jake/repos/pico-sdk/src/rp2_common/pico_multicore;/home/jake/repos/pico-sdk/src/rp2_common/pico_unique_id;/home/jake/repos/pico-sdk/src/rp2_common/pico_atomic;/home/jake/repos/pico-sdk/src/rp2_common/pico_bit_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_divider;/home/jake/repos/pico-sdk/src/rp2_common/pico_double;/home/jake/repos/pico-sdk/src/rp2_common/pico_int64_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_flash;/home/jake/repos/pico-sdk/src/rp2_common/pico_float;/home/jake/repos/pico-sdk/src/rp2_common/pico_mem_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_malloc;/home/jake/repos/pico-sdk/src/rp2_common/pico_printf;/home/jake/repos/pico-sdk/src/rp2_common/pico_rand;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_semihosting;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_uart;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_rtt;/home/jake/repos/pico-sdk/src/rp2_common/cmsis;/home/jake/repos/pico-sdk/src/rp2_common/tinyusb;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_usb;/home/jake/repos/pico-sdk/src/rp2_common/pico_i2c_slave;/home/jake/repos/pico-sdk/src/rp2_common/pico_async_context;/home/jake/repos/pico-sdk/src/rp2_common/pico_btstack;/home/jake/repos/pico-sdk/src/rp2_common/pico_cyw43_driver;/home/jake/repos/pico-sdk/src/rp2_common/pico_lwip/tools;/home/jake/repos/pico-sdk/src/rp2_common/pico_lwip;/home/jake/repos/pico-sdk/lib/cyw43-driver/src;/home/jake/repos/pico-sdk/src/rp2_common/pico_cyw43_arch;/home/jake/repos/pico-sdk/src/rp2_common/pico_mbedtls;/home/jake/repos/pico-sdk/src/rp2_common/pico_time_adapter;/home/jake/repos/pico-sdk/src/rp2_common/pico_crt0;/home/jake/repos/pico-sdk/src/rp2_common/pico_clib_interface;/home/jake/repos/pico-sdk/src/rp2_common/pico_cxx_options;/home/jake/repos/pico-sdk/src/rp2_common/pico_standard_binary_info;/home/jake/repos/pico-sdk/src/rp2_common/pico_standard_link;/home/jake/repos/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration;/home/jake/repos/pico-sdk/src/rp2_common/pico_fix;/home/jake/repos/pico-sdk/src/rp2_common/pico_runtime_init;/home/jake/repos/pico-sdk/src/rp2_common/pico_runtime;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdlib;/home/jake/repos/xvc-pico/build/pico-sdk/src/extra_doxygen"
+			"value" : "/home/jake/repos/pico-sdk/src/common/boot_picobin_headers;/home/jake/repos/pico-sdk/src/common/boot_picoboot_headers;/home/jake/repos/pico-sdk/src/common/boot_uf2_headers;/home/jake/repos/pico-sdk/src/common/pico_base_headers;/home/jake/repos/pico-sdk/src/common/pico_usb_reset_interface_headers;/home/jake/repos/pico-sdk/src/common/pico_bit_ops_headers;/home/jake/repos/pico-sdk/src/common/pico_binary_info;/home/jake/repos/pico-sdk/src/common/pico_divider_headers;/home/jake/repos/pico-sdk/src/common/pico_sync;/home/jake/repos/pico-sdk/src/common/pico_time;/home/jake/repos/pico-sdk/src/common/pico_util;/home/jake/repos/pico-sdk/src/common/pico_stdlib_headers;/home/jake/repos/pico-sdk/src/common/hardware_claim;/home/jake/repos/pico-sdk/src/rp2040/pico_platform;/home/jake/repos/pico-sdk/src/rp2040/hardware_regs;/home/jake/repos/pico-sdk/src/rp2040/hardware_structs;/home/jake/repos/pico-sdk/src/rp2040/boot_stage2;/home/jake/repos/pico-sdk/src/rp2_common/hardware_base;/home/jake/repos/pico-sdk/src/rp2_common/hardware_adc;/home/jake/repos/pico-sdk/src/rp2_common/hardware_boot_lock;/home/jake/repos/pico-sdk/src/rp2_common/hardware_clocks;/home/jake/repos/pico-sdk/src/rp2_common/hardware_divider;/home/jake/repos/pico-sdk/src/rp2_common/hardware_dma;/home/jake/repos/pico-sdk/src/rp2_common/hardware_exception;/home/jake/repos/pico-sdk/src/rp2_common/hardware_flash;/home/jake/repos/pico-sdk/src/rp2_common/hardware_gpio;/home/jake/repos/pico-sdk/src/rp2_common/hardware_i2c;/home/jake/repos/pico-sdk/src/rp2_common/hardware_interp;/home/jake/repos/pico-sdk/src/rp2_common/hardware_irq;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pio;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pll;/home/jake/repos/pico-sdk/src/rp2_common/hardware_pwm;/home/jake/repos/pico-sdk/src/rp2_common/hardware_resets;/home/jake/repos/pico-sdk/src/rp2_common/hardware_rtc;/home/jake/repos/pico-sdk/src/rp2_common/hardware_spi;/home/jake/repos/pico-sdk/src/rp2_common/hardware_sync;/home/jake/repos/pico-sdk/src/rp2_common/hardware_sync_spin_lock;/home/jake/repos/pico-sdk/src/rp2_common/hardware_ticks;/home/jake/repos/pico-sdk/src/rp2_common/hardware_timer;/home/jake/repos/pico-sdk/src/rp2_common/hardware_uart;/home/jake/repos/pico-sdk/src/rp2_common/hardware_vreg;/home/jake/repos/pico-sdk/src/rp2_common/hardware_watchdog;/home/jake/repos/pico-sdk/src/rp2_common/hardware_xip_cache;/home/jake/repos/pico-sdk/src/rp2_common/hardware_xosc;/home/jake/repos/pico-sdk/src/rp2_common/boot_bootrom_headers;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_compiler;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_sections;/home/jake/repos/pico-sdk/src/rp2_common/pico_platform_panic;/home/jake/repos/pico-sdk/src/rp2_common/pico_aon_timer;/home/jake/repos/pico-sdk/src/rp2_common/pico_bootrom;/home/jake/repos/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset;/home/jake/repos/pico-sdk/src/rp2_common/pico_multicore;/home/jake/repos/pico-sdk/src/rp2_common/pico_unique_id;/home/jake/repos/pico-sdk/src/rp2_common/pico_atomic;/home/jake/repos/pico-sdk/src/rp2_common/pico_bit_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_divider;/home/jake/repos/pico-sdk/src/rp2_common/pico_double;/home/jake/repos/pico-sdk/src/rp2_common/pico_int64_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_flash;/home/jake/repos/pico-sdk/src/rp2_common/pico_float;/home/jake/repos/pico-sdk/src/rp2_common/pico_mem_ops;/home/jake/repos/pico-sdk/src/rp2_common/pico_malloc;/home/jake/repos/pico-sdk/src/rp2_common/pico_printf;/home/jake/repos/pico-sdk/src/rp2_common/pico_rand;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_semihosting;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_uart;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_rtt;/home/jake/repos/pico-sdk/src/rp2_common/cmsis;/home/jake/repos/pico-sdk/src/rp2_common/tinyusb;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio_usb;/home/jake/repos/pico-sdk/src/rp2_common/pico_i2c_slave;/home/jake/repos/pico-sdk/src/rp2_common/pico_async_context;/home/jake/repos/pico-sdk/src/rp2_common/pico_btstack;/home/jake/repos/pico-sdk/src/rp2_common/pico_cyw43_driver;/home/jake/repos/pico-sdk/src/rp2_common/pico_lwip/tools;/home/jake/repos/pico-sdk/src/rp2_common/pico_lwip;/home/jake/repos/pico-sdk/lib/cyw43-driver/src;/home/jake/repos/pico-sdk/src/rp2_common/pico_cyw43_arch;/home/jake/repos/pico-sdk/src/rp2_common/pico_mbedtls;/home/jake/repos/pico-sdk/src/rp2_common/pico_time_adapter;/home/jake/repos/pico-sdk/src/rp2_common/pico_crt0;/home/jake/repos/pico-sdk/src/rp2_common/pico_clib_interface;/home/jake/repos/pico-sdk/src/rp2_common/pico_cxx_options;/home/jake/repos/pico-sdk/src/rp2_common/pico_standard_binary_info;/home/jake/repos/pico-sdk/src/rp2_common/pico_standard_link;/home/jake/repos/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration;/home/jake/repos/pico-sdk/src/rp2_common/pico_fix;/home/jake/repos/pico-sdk/src/rp2_common/pico_runtime_init;/home/jake/repos/pico-sdk/src/rp2_common/pico_runtime;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdio;/home/jake/repos/pico-sdk/src/rp2_common/pico_stdlib;/home/jake/repos/xvc-pico/firmware/build/pico-sdk/src/extra_doxygen"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PRE_DEFINES",
@@ -1903,7 +1907,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/jake/repos/xvc-pico/build/pioasm-install"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build/pioasm-install"
 		},
 		{
 			"name" : "_Python3_Compiler_REASON_FAILURE",
@@ -1987,7 +1991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jake/repos/xvc-pico/build/pico-sdk"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",
@@ -2047,7 +2051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jake/repos/xvc-pico/build"
+			"value" : "/home/jake/repos/xvc-pico/firmware/build"
 		},
 		{
 			"name" : "xvcPico_IS_TOP_LEVEL",

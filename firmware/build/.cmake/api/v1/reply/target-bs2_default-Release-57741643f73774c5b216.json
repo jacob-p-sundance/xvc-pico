@@ -147,7 +147,7 @@
 				{
 					"backtrace" : 8,
 					"isSystem" : true,
-					"path" : "/home/jake/repos/xvc-pico/build/generated/pico_base"
+					"path" : "/home/jake/repos/xvc-pico/firmware/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 8,

@@ -74,19 +74,19 @@
 		{
 			"backtrace" : 2,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.rule",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/jake/repos/xvc-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
+			"path" : "build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

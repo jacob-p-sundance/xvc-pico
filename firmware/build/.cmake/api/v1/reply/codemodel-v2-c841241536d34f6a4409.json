@@ -1322,42 +1322,42 @@
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default-Release-4e2894f8cc4cf3652faa.json",
+					"jsonFile" : "target-bs2_default-Release-57741643f73774c5b216.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default_bin::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default_bin-Release-847bda240ad5bb20ac21.json",
+					"jsonFile" : "target-bs2_default_bin-Release-d3e87a3046629e3039e2.json",
 					"name" : "bs2_default_bin",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default_library::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default_library-Release-5cff978ab870ec032ab8.json",
+					"jsonFile" : "target-bs2_default_library-Release-75cca02261ae7250fa7f.json",
 					"name" : "bs2_default_library",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 77,
 					"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
-					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Release-11697d849c7d86611a59.json",
+					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Release-856f5571012ace23f18a.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 77,
 					"id" : "pioasmBuild::@c2fb4f534018e64680d5",
-					"jsonFile" : "target-pioasmBuild-Release-8f9efdfb7906bfd999d6.json",
+					"jsonFile" : "target-pioasmBuild-Release-d440af9e7635f853d203.json",
 					"name" : "pioasmBuild",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "xvcPico::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-xvcPico-Release-05b399ad9e7f85055409.json",
+					"jsonFile" : "target-xvcPico-Release-db0999ebbe61161d1327.json",
 					"name" : "xvcPico",
 					"projectIndex" : 0
 				}
@@ -1367,7 +1367,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jake/repos/xvc-pico/build",
+		"build" : "/home/jake/repos/xvc-pico/firmware/build",
 		"source" : "/home/jake/repos/xvc-pico/firmware"
 	},
 	"version" : 

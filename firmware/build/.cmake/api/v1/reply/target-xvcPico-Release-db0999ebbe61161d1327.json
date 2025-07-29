@@ -446,7 +446,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/jake/repos/xvc-pico/build/generated/pico_base"
+					"path" : "/home/jake/repos/xvc-pico/firmware/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1110,7 +1110,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/jake/repos/xvc-pico/build/generated/pico_base"
+					"path" : "/home/jake/repos/xvc-pico/firmware/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1719,7 +1719,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/jake/repos/xvc-pico/build/generated/pico_base"
+					"path" : "/home/jake/repos/xvc-pico/firmware/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -2779,7 +2779,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "-Wl,-L/home/jake/repos/xvc-pico/build",
+				"fragment" : "-Wl,-L/home/jake/repos/xvc-pico/firmware/build",
 				"role" : "flags"
 			},
 			{
