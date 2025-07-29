@@ -1,12 +1,15 @@
 #include <stdio.h>
-#include "pico/stdlib.h"
-#include "pico/binary_info.h"
-#include "pico/multicore.h"
-#include "bsp/board.h"
-#include "tusb.h"
+#include <pico/stdlib.h>
+#include <pico/binary_info.h>
+#include <pico/multicore.h>
+#include <bsp/board.h>
+#include <tusb.h>
 #include "xvcPico.h"
 #include "jtag.h"
 #include "axm.h"
+#include <hardware/clocks.h>  // Required to print core clock frequency
+
+#define LED_BLINK_DELAY 500
 
 void __time_critical_func(core1_entry)() {
   while (1) {
@@ -87,6 +90,7 @@ bool tud_vendor_control_xfer_cb(__attribute__((unused)) uint8_t rhport, uint8_t 
 int main() {
   board_init();
   tusb_init();
+  stdio_usb_init();
 
   // JTAG init
   gpio_init(tdi_gpio);
@@ -131,8 +135,29 @@ int main() {
   gpio_init(LED_PIN);
   gpio_set_dir(LED_PIN, GPIO_OUT);
 
-  multicore_launch_core1(core1_entry);
+  // Non-blocking LED blink setup
+  uint32_t last_blink = to_ms_since_boot(get_absolute_time());
+  bool led_on = false;
+
+  // Core clock print setup
+  uint32_t last_clock_print = last_blink;
+  const uint32_t CLOCK_PRINT_INTERVAL = 5000; // ms
+
+  multicore_launch_core1(core1_entry);  
   while (1) {
+    // LED blink logic
+    uint32_t now = to_ms_since_boot(get_absolute_time());
+    if (now - last_blink >= LED_BLINK_DELAY) {
+      led_on = !led_on;
+      gpio_put(LED_PIN, led_on);
+      last_blink = now;
+    }
+    // Print core clock every few seconds
+    if (now - last_clock_print >= CLOCK_PRINT_INTERVAL) {
+      uint32_t freq = clock_get_hz(clk_sys);
+      printf("Core clock: %lu Hz\r\n", freq);
+      last_clock_print = now;
+    }
     from_host_task();
     fetch_command();
     pmod_task();

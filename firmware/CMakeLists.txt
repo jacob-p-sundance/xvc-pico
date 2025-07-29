@@ -24,8 +24,9 @@ target_include_directories(xvcPico PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 pico_set_program_name(xvcPico "xvcPico")
 pico_set_program_version(xvcPico "0.1")
 
-#pico_enable_stdio_uart(xvcPico 0)
-#pico_enable_stdio_usb(xvcPico 0)
+# Enable USB stdio, disable UART stdio
+pico_enable_stdio_usb(xvcPico 1)
+pico_enable_stdio_uart(xvcPico 0)
 
 # Add the standard library to the build
 target_link_libraries(xvcPico PRIVATE pico_stdlib)
@@ -39,3 +40,6 @@ target_link_libraries(xvcPico PRIVATE
 )
 
 pico_add_extra_outputs(xvcPico)
+
+# Set the clock speed to 200 MHz
+add_compile_definitions(SYS_CLK_MHZ=200)
