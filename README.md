@@ -2,6 +2,8 @@
 
 NOTES FOR FORK: 
 Build files are located in ./firmware/build. Therefore building the project: cd ./firmware/build, cmake .. , make
+Clock frequency is controlled in /firmware/CMakeLists.txt, in the line # add_compile_definitions(SYS_CLK_MHZ=200)
+(uncomment for 200MHz, comment for the defauly of 125MHz)
 
 This project implements a Raspberry Pico based Xilinx Virtual Cable (XVC). It
 allows using Raspberry Pico as a JTAG adapter for programming Xilinx FPGAs.
